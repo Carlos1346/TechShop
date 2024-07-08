@@ -32,6 +32,7 @@ const Example = () => {
             <Nav className="me-auto">
               <Nav.Link as={Link} to="/">Inicio</Nav.Link>
               <Nav.Link as={Link} to="/catalog">Catalogo</Nav.Link>
+              <Nav.Link as={Link} to="/questionary">¡Crea tu mejor opcion!</Nav.Link>
               <Nav.Link as={Link} to="/login">Iniciar sesion</Nav.Link>
               <Nav.Link as={Link} to="/register">Registrarse</Nav.Link>
             </Nav>
@@ -47,7 +48,7 @@ const Example = () => {
             <Nav>
               <Nav.Link as={Link} to="/car">Carrito</Nav.Link>
               <NavDropdown title="Perfil" id="navbarScrollingDropdown">
-                <NavDropdown.Item as={Link} to="userProfile">
+                <NavDropdown.Item as={Link} to="/profile">
                   Ver Perfil
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/status">

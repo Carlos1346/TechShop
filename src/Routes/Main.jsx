@@ -19,6 +19,9 @@ import Register from "../Pages/Register";
 import Catalog from "../Pages/Catalog";
 import Car from "../Pages/Car";
 import Shoping from "../Pages/Shoping";
+import ProfileView from "../Pages/ProfileView";
+import QuestionaryView from "../Pages/QuestionaryView";
+
 function Main() {
   return (
     <>
@@ -33,6 +36,8 @@ function Main() {
           <Route path="/catalog" element={<Catalog />}></Route>
           <Route path="/car" element={<Car />}></Route>
           <Route path="/status" element={<Shoping />}></Route>
+          <Route path="/profile" element={<ProfileView />}></Route>
+          <Route path="/questionary" element={<QuestionaryView />}></Route>
         </Routes>
       </div>
     </>
