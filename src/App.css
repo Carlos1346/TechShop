@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+#Background {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  background-color: rgb(220, 250, 252);
+}
 
 .App-logo {
   height: 40vmin;
