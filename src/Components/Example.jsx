@@ -47,6 +47,7 @@ const Example = () => {
             </Form>
             <Nav>
               <Nav.Link as={Link} to="/car">Carrito</Nav.Link>
+              <Nav.Link as={Link} to="/ListWish">♥</Nav.Link>
               <NavDropdown title="Perfil" id="navbarScrollingDropdown">
                 <NavDropdown.Item as={Link} to="/profile">
                   Ver Perfil

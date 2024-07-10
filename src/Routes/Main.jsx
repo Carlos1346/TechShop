@@ -18,6 +18,7 @@ import Login from "../Pages/Login";
 import Register from "../Pages/Register";
 import Catalog from "../Pages/Catalog";
 import Car from "../Pages/Car";
+import ListWish from "../Pages/ListWish";
 import Shoping from "../Pages/Shoping";
 import ProfileView from "../Pages/ProfileView";
 import QuestionaryView from "../Pages/QuestionaryView";
@@ -35,6 +36,7 @@ function Main() {
           <Route path="/register" element={<Register />}></Route>
           <Route path="/catalog" element={<Catalog />}></Route>
           <Route path="/car" element={<Car />}></Route>
+          <Route path="/listwish" element={<ListWish />}></Route>
           <Route path="/status" element={<Shoping />}></Route>
           <Route path="/profile" element={<ProfileView />}></Route>
           <Route path="/questionary" element={<QuestionaryView />}></Route>
