@@ -44,8 +44,7 @@ function Footer() {
                   >
                     Acerca de nosotros.
                   </Link>
-                  <Link
-                    to="/ruta-del-elemento-2"
+                  <Link as={Link} to="/contact"
                     className="list-group-item list-group-item-action font-weight-bold"
                   >
                     Contactanos.

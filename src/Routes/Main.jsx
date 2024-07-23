@@ -22,6 +22,8 @@ import ListWish from "../Pages/ListWish";
 import Shoping from "../Pages/Shoping";
 import ProfileView from "../Pages/ProfileView";
 import QuestionaryView from "../Pages/QuestionaryView";
+import ChatComponent from "../Components/ChatComponent";
+import Contact from "../Pages/Contact";
 
 function Main() {
   return (
@@ -40,6 +42,8 @@ function Main() {
           <Route path="/status" element={<Shoping />}></Route>
           <Route path="/profile" element={<ProfileView />}></Route>
           <Route path="/questionary" element={<QuestionaryView />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+
         </Routes>
       </div>
     </>
