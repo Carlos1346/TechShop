@@ -22,7 +22,6 @@ import ListWish from "../Pages/ListWish";
 import Shoping from "../Pages/Shoping";
 import ProfileView from "../Pages/ProfileView";
 import QuestionaryView from "../Pages/QuestionaryView";
-import ChatComponent from "../Components/ChatComponent";
 import Contact from "../Pages/Contact";
 
 function Main() {
