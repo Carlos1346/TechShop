@@ -23,6 +23,7 @@ import Shoping from "../Pages/Shoping";
 import ProfileView from "../Pages/ProfileView";
 import QuestionaryView from "../Pages/QuestionaryView";
 import Contact from "../Pages/Contact";
+import Product from "../Pages/Product";
 
 function Main() {
   return (
@@ -42,6 +43,8 @@ function Main() {
           <Route path="/profile" element={<ProfileView />}></Route>
           <Route path="/questionary" element={<QuestionaryView />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/product" element={<Product />}></Route>
+          
 
         </Routes>
       </div>

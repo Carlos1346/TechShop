@@ -24,14 +24,14 @@ const Questionary = () => {
         name: "PC Gaming Avanzada",
         description: "Una poderosa PC gaming para juegos exigentes.",
         price: "20000",
-        image: "https://via.placeholder.com/300",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7WOUDxL4JhT11NRwVInnqrMyNFcwNfouwYw&s",
       },
       {
         name: "PC de Oficina",
         description:
           "Una PC eficiente para trabajo de oficina y tareas diarias.",
         price: "10000",
-        image: "https://via.placeholder.com/300",
+        image: "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/9de892cd-1e65-4faf-bd4e-976b4eb99576.2d97752179178a01d104d0240e0f41d0.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
       },
     ];
 
@@ -145,17 +145,17 @@ const Questionary = () => {
         {
           value: "basica",
           label: "Básica",
-          image: "https://via.placeholder.com/80",
+          image: "https://m.media-amazon.com/images/I/71xuepwxseL.jpg",
         },
         {
           value: "media",
           label: "Media",
-          image: "https://via.placeholder.com/80",
+          image: "https://media.digitalife.com.mx/products/49289/649dff0f7435e.webp",
         },
         {
           value: "alta",
           label: "Alta",
-          image: "https://via.placeholder.com/80",
+          image: "https://topesdegama.com/app/uploads-topesdegama.com/2022/09/graficas-portada-1200x675.jpg",
         },
       ],
       stateSetter: setTarjetaGrafica,
@@ -167,17 +167,17 @@ const Questionary = () => {
         {
           value: "8GB",
           label: "8 GB",
-          image: "https://via.placeholder.com/80",
+          image: "https://www.cyberpuerta.mx/img/product/S/CP-CORSAIR-CMW8GX4M1Z3200C16-1.jpg",
         },
         {
           value: "16GB",
           label: "16 GB",
-          image: "https://via.placeholder.com/80",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_eZS5yZ-SY8BF5htfVfYUH6o5F97daQMv-Q&s",
         },
         {
           value: "32GB",
           label: "32 GB",
-          image: "https://via.placeholder.com/80",
+          image: "https://media.digitalife.com.mx/products/14770/6097b64f3994d.webp",
         },
       ],
       stateSetter: setMemoriaRAM,
@@ -186,12 +186,12 @@ const Questionary = () => {
     {
       question: "6. Disco Duro",
       options: [
-        { value: "HDD", label: "HDD", image: "https://via.placeholder.com/80" },
-        { value: "SSD", label: "SSD", image: "https://via.placeholder.com/80" },
+        { value: "HDD", label: "HDD", image: "https://www.crucial.mx/content/dam/crucial/articles/pc-users/why-is-my-laptop-so-slow-/hard-disk-drive.jpg.transform/large-jpg/img.jpg" },
+        { value: "SSD", label: "SSD", image: "https://roymemory.com.mx/wp-content/uploads/2021/09/sa400s37-480g-o2.png" },
         {
           value: "HDD+SSD",
           label: "HDD+SSD",
-          image: "https://via.placeholder.com/80",
+          image: "https://www.mundodeportivo.com/urbantecno/hero/2022/01/Que-diferencias-hay-entre-un-HDD-y-un-SSD.jpg?width=768&aspect_ratio=16:9&format=nowebp",
         },
       ],
       stateSetter: setDiscoDuro,
@@ -203,17 +203,17 @@ const Questionary = () => {
         {
           value: "oficina",
           label: "Oficina",
-          image: "https://via.placeholder.com/80",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4-lOD4oFLU1Ypdvxv-7GrCzOxfaHInhv1Xw&s",
         },
         {
           value: "diseño",
           label: "Diseño",
-          image: "https://via.placeholder.com/80",
+          image: "https://www.creaxid.com.mx/blog/wp-content/uploads/2022/01/programas-de-diseno.png",
         },
         {
           value: "desarrollo",
           label: "Desarrollo",
-          image: "https://via.placeholder.com/80",
+          image: "https://okhosting.com/wp-content/uploads/2015/12/herramientas-de-desarrollo-de-software.png",
         },
       ],
       stateSetter: setProgramas,
@@ -225,12 +225,12 @@ const Questionary = () => {
         {
           value: "solo_yo",
           label: "Solo por mí",
-          image: "https://via.placeholder.com/80",
+          image: "https://www.cavsi.com/espanol/wp-content/uploads/que-es-usuario.jpg",
         },
         {
           value: "varias_personas",
           label: "Por varias personas",
-          image: "https://via.placeholder.com/80",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIK-qPKXrGA_h273AAT9kcJsquKaJgkjZ2Uw&s",
         },
       ],
       stateSetter: setUsuarios,
